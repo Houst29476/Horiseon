@@ -9,7 +9,7 @@ body {
 }
 
 /* Header Background Styling */
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -18,18 +18,18 @@ header {
 /* end of Header Background Styling */
 
 /* Logo top - left */
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 /* end of Logo top - left */
 
 /* Header Navigation */
-header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,11 +37,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -73,8 +73,6 @@ p {
 /* Search Engine Optimization section */
 .search-engine-optimization {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 360px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -95,8 +93,6 @@ p {
 /* Online Reputation Management section */
 .online-reputation-management {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 360px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -117,8 +113,6 @@ p {
 /* Social Media Marketing section */
 .social-media-marketing {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 360px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -155,30 +149,27 @@ p {
 
 .benefits {
     margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: -960px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 200%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /* Lead Generation section */
-.lead-generation {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.lead-generation h3 {
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.lead-generation img {
+.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -186,17 +177,17 @@ p {
 /* end Lead Generation section */
 
 /* Brand Awareness section */
-.brand-awareness {
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.brand-awareness h3 {
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.brand-awareness img {
+.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -204,17 +195,17 @@ p {
 /* end Brand Awareness section */
 
 /* Cost Management section */
-.cost-management {
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.cost-management h3 {
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.cost-management img {
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -234,3 +225,4 @@ p {
     font-size: 20px;
 }
 /* End of Footer */
+
