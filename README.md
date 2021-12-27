@@ -41,5 +41,5 @@ After refactoring / organizing the HTML and CSS code, the blow have been checked
     -  Repository contains multiple descriptive commit messages for each update to the repository.
 
     - This README file is included describing the changes and updates that have been made to the original source code. A screen shot and link to deployed application are included as well.
-    https://houst29476.github.io/first-challenge/
+    https://houst29476.github.io/Horiseon/
     
